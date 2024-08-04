@@ -60,6 +60,3 @@ scipy
 matplotlib
 
 seaborn
-
-# Conclusion
-The statistical tests and visualizations performed provide insights into the Iris dataset's distribution and the differences between species. The results offer valuable information for understanding species characteristics and the dataset's overall structure.
