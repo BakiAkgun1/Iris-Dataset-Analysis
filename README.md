@@ -2,14 +2,16 @@
 This project involves performing various statistical tests and visualizations on the Iris dataset. Below is a summary of the tests conducted and their results.
 
 ## Statistical Tests
-#Shapiro-Wilk Test:sepal_length
+#Shapiro-Wilk Test:
+sepal_length
 
 Test Statistic: 0.9761
 
 p-value: 0.0102
 
 Explanation: This test assesses the normality of the data distribution. Since the p-value is less than 0.05, it indicates that the data significantly deviates from a normal distribution, rejecting the normality assumption.
-## D’Agostino’s K^2 Test:sepal_length
+## D’Agostino’s K^2 Test:
+** sepal_length*
 
 Test Statistic: 5.7356
 
@@ -17,7 +19,8 @@ p-value: 0.0568
 
 Explanation: This test evaluates the deviation of the data from a normal distribution. With a p-value near 0.05, it suggests that there may be some deviation from normality, though it is not definitive.
 
-## Anderson-Darling Test:sepal_length
+## Anderson-Darling Test:
+sepal_length
 
 Test Statistic: 0.8892
 
