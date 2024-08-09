@@ -2,8 +2,8 @@
 This project involves performing various statistical tests and visualizations on the Iris dataset. Below is a summary of the tests conducted and their results.
 
 ## Statistical Tests
-#Shapiro-Wilk Test:
-sepal_length
+# Shapiro-Wilk Test:
+**sepal_length
 
 Test Statistic: 0.9761
 
@@ -20,7 +20,7 @@ p-value: 0.0568
 Explanation: This test evaluates the deviation of the data from a normal distribution. With a p-value near 0.05, it suggests that there may be some deviation from normality, though it is not definitive.
 
 ## Anderson-Darling Test:
-sepal_length
+**sepal_length
 
 Test Statistic: 0.8892
 
@@ -28,7 +28,7 @@ Critical Values: 0.562 (15%), 0.64 (10%), 0.767 (5%), 0.895 (2.5%), 1.065 (1%)
 
 Explanation: This test checks the fit of the data to a normal distribution. The sepal_length test statistic is close to the 2.5% significance level critical value, suggesting limited adherence to normal distribution.
 ## ANOVA (Analysis of Variance)
-species - sepal_length
+**species - sepal_length
 
 Sum of Squares: species 63.212, Residual 38.956
 
@@ -40,7 +40,7 @@ p-value: 1.67e-31
 
 Explanation: ANOVA tests whether the means of different groups are significantly different. The very small p-value indicates that the mean differences among species are statistically significant and not due to random chance.
 ## t-Test
-sepal_length - sseetosa
+**sepal_length - setosa
 p-value: 8.9852e-18
 
 Explanation: The t-Test assesses the significance of the mean difference between two groups. The very small p-value suggests that the difference in means is significant and not due to random variation.
